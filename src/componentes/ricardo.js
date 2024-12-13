@@ -1,9 +1,9 @@
 import React from 'react';
-import './ricardo.css';
+import '../App.css'; 
 import RicardoImage from '../images/Ricardo.jpg';
 const Ricardo = () => {
     return (
-        <div className="ricardo-container">
+        <div className="container">
             <h1>¡Hola, soy Ricardo! 🦜</h1>
             <img
                 src={RicardoImage}

@@ -1,5 +1,6 @@
 import React from 'react';
-import './pepillo.css';
+import '../App.css'; 
+
 import PepilloImage from '../images/Pepillo.jpg';
 const Pepillo = () => {
     return (

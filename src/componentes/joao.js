@@ -1,9 +1,9 @@
 import React from 'react';
-import './joao.css';
+import '../App.css'; 
 import JhoaImage from '../images/Jhoa.jpg';
 const Joao = () => {
     return (
-        <div className="joao-container">
+        <div className="container">
             <h1>¡Hola, soy Joao! 🦁</h1>
             <img
                 src={JhoaImage}
